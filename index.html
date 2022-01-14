@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
     <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+      a.hlinksnames:hover, a.hlinknames:active {text-decoration:underline;}
+    </style>
   </head>
   <body>   
     <section>
@@ -35,13 +38,13 @@
           <a class="icon-link w3-text-sand w3-hover-text-amber" href="#twitter" target="https://twitter.com/sebmon86">
              <i data-feather="twitter"></i>
           </a>
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#linkedin" target="www.linkedin.com/in/sebastian-monroy-taborda-b9726919">
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#linkedin" target="https://www.linkedin.com/in/sebastian-monroy-taborda-b9726919">
              <i data-feather="linkedin"></i>
           </a>
         </div>
         <!--CV DOWNLOAD BUTTON-->
         <div class="w3-container w3-padding-16">
-          <a href="./resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+          <a href="./CV_Sebastian_Monroy.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
             <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
             <span class="w3-margin-left download-text">DOWNLOAD CV</span>
           </a>
@@ -52,156 +55,133 @@
       <section class="w3-threequarter w3-padding-large w3-right">
         <!--DESKTOP NAVIGATION-->
         <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
-          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
-          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
-          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#public" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PUBLICATIONS</a>
+          <a href="#workip" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">WORK IN PROGRESS</a>
           <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
         </div>
         <div class="content-container w3-margin-top-2">
           <!--HOME SECTION-->
-          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
-            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
-            <h1>John Doe (35)</h2>
-            <h2>Community manager</h3>
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive w3-large">
+            <h1>Sebastian Monroy Taborda</span></h1>
+            <div class="subheading mb-1" style="font-weight:300;">
+            <h3> Ph.D. Candidate, PUC Chile. <a href="mailto:smonroy@uc.cl"> smonroy@uc.cl</a></h3></div>
             <p></p>
           </div>
-
+        
           <!--ABOUT SECTION-->
           <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
             <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
             <p class="w3-margin-top-2"> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Nam porttitor sollicitudin efficitur. 
-               Integer posuere odio vel ullamcorper euismod. 
-               Aliquam sit amet nulla tortor. 
-               Integer vehicula nunc et condimentum feugiat. 
-               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
-            </p>
-            <p class=""> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Nam porttitor sollicitudin efficitur. 
-               Integer posuere odio vel ullamcorper euismod. 
-               Aliquam sit amet nulla tortor. 
-               Integer vehicula nunc et condimentum feugiat. 
-               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
-            </p>
-            <p class=""> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Nam porttitor sollicitudin efficitur. 
-               Integer posuere odio vel ullamcorper euismod. 
-               Aliquam sit amet nulla tortor. 
-               Integer vehicula nunc et condimentum feugiat. 
-               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
+              I am a Ph.D Candidate from the Pontificia Universidad Católica in Chile. My main interests are Macroeconomics and Labor Makrets.
             </p>
           </div>
-
-          <!--RESUME-->
-          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-
-              <!--EMPLOYMENT HISTORY SECTION-->
-              <h3 class="w3-border-amber">MY EMPLOYMENT HISTORY</h3>
-              <div class="">
-                <h4>Community Manager at the Company-X</h4>
-                <p>September 2020 - Present</p>
-                <ul class="w3-ul" style="font-weight: 500;">
-                  <li>Ensured that published content meets brand guidelines and overall communication styles</li>
-                  <li>Built relations with the online community</li>
-                  <li>Implemented social media strategies to increase engagement and followers</li>
-                </ul>
-              </div>
-              <div class="">
-                <h4>Social Community Manager at the Company-Y</h4>
-                <p>January 2017 - June 2020 </p>
-                <ul class="w3-ul" style="font-weight: 500;">
-                  <li>Ensured that audience growth rate is in increase through social networs</li>
-                  <li>Managed social media campaigns for various social media platforms to align with marketing strategies</li>
-                  <li>Monitored and provided feedback on engagement/conversation via social media channels to leadership</li>
-                </ul>
-              </div>
-              <div class="">
-                <h4>Social Community Manager at the Company-Z</h4>
-                <p>January 2014 - April 2016 </p>
-                <ul class="w3-ul" style="font-weight: 500;">
-                  <li>Organized and managed community events to boost brand awareness</li>
-                  <li>Monitored, tracked and reported on feedback and online reviews</li>
-                  <li>Provided engaging text, image and video content for all social media and professional accounts</li>
-                </ul>
-              </div>
+        
+          <!--WORK IN PROGRESS SECTION-->
+          <div id="workip" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">WORK IN PROGRESS</h2>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#paper1" target="_blank" style> The Coordination Channel of Redistributive Policies</a>
+              </h3>
+              <p></p>
+              <p></p>
             </div>
-
-            <!---EDUCATION SECTION-->
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-              <h3 class="w3-border-amber">MY EDUCATION</h3>
-                <h4>College diploma, College of management, Houston</h4>
-                <p>October 2008 - July 2013 </p>
-                <h4>Highschool diploma, XYZ Highschool, Houston</h4>
-                <p>October 2004 - July 2008 </p>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#paper2" target="_blank" style> Dynamic Debt Runs with Flexible Spreads</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with Caio Machado.</div>  
+              </h3>             
             </div>
-
-            <!--SKILLS SECTION-->
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-              <h3 class="w3-border-amber">MY SKILLS</h3>
-              <!--SOFT SKILLS-->
-              <h4>Soft skills</h4>
-              <ul class="w3-ul" style="font-weight: 500;">
-                <li>I have excelent communication skill and confidence in front of an audience</li>
-                <li>I have a talent for investigating and researching different processes to offer different improvements and solution for the benefit of the organization </li>
-                <li>Provided engaging text, image and video content for all social media and professional accounts</li>
-              </ul>
-              <!--TECHNICAL SKILLS-->
-              <h4>Technical skills</h4>
-                <ul class="w3-ul" style="font-weight: 500;">
-                  <li>I have a great experience with MS Office tools</li>
-                  <li>I am proficient in technical writing</li>
-                  <li>Provided engaging text, image and video content for all social media and professional accounts</li>
-                </ul>
-            </div>
-
-            <!--INTERESTS SECTION-->
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
-                <ul class="w3-ul" style="font-weight: 500;">
-                  <li>I love mountain hiking and cycling in my free time</li>
-                  <li>I like to play board games with other people</li>
-                </ul>
-            </div>
-
-            <!--REFERENCE SECTION-->
-            <div class="w3-container w3-margin-top-2 w3-cursive">
-              <h3 class="w3-border-amber">MY REFERENCES</h3>
-              <h4>Jane Doe, CEO at Company-Z</h4>
-              <ul class="w3-ul" style="font-weight: 500;">
-                <li>+0123456789</li>
-                <li>janedoe@companyz.com</li>
-              </ul>
-              <h4>Margaret Johnson, Manager at Company-Y</h4>
-              <ul class="w3-ul" style="font-weight: 500;">
-                <li>+9876543210</li>
-                <li>mjohnson@companyy.com</li>
-              </ul>
-            </div>            
           </div>
 
-          <!--CONTACT SECTION-->
-          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
-            <div class="w3-margin-top-2" style="font-weight: 500;">
-              <p>Name: John Doe</p>
-              <p>Adress: Street name 99, 77001 Houston, Texas</p>
-              <p>Phone number: +0123456789</p>
-              <p>E-mail: johndoe@email.com</p>
+
+          <!--Publications-->
+          <div id="public" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PUBLICATIONS</h3>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+            <h3 class="mb-1" style> WORKING PAPERS </h3> 
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#wp1" target="_blank" style> Technological Change and Labor Market Disruptions: Evidence from the Developing World</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with M. Moreno, I. Santos</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#wp2" target="https://ftp.iza.org/dp10224.pdf" style> The Skill Content of Occupations across Low and Middle Income Countries: Evidence from harminized data</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with E. Dicarlo, S. Lo Bello, A. Oviedo, M. Sanchez-Puerta, I. Santos</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#wp3" target="https://openknowledge.worldbank.org/handle/10986/25678" style> Are there Skill Payoffs in Low and Middle Income Countries: Empirical Evidence Using STEP data</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with A. Valerio, M. Sanchez-Puerta, N. Tognatta</div>  
+              </h3>
+            </div>
+            <p> </p>
+            </div>
+
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+            <h3 class="mb-1" style> REPORTS </h3> 
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#wdr" target="https://www.worldbank.org/en/publication/wdr2016" style> World Development Report 2016: Digital Dividends</a>
+                <div class="subheading mb-0" style="font-weight:300;"> Co-author.</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#eetp" target="https://openknowledge.worldbank.org/handle/10986/18031" style> Enterpreneurship Education and Training Programs around the World</a>
+                <div class="subheading mb-0" style="font-weight:300;"> Contributor.</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#step1" target="https://openknowledge.worldbank.org/handle/10986/25199?show=full" style> Armenia Skills towards employment and productivity (STEP) survey findings (Urban Areas)</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with A. Valerio, K. Herrera-Sosa, D. Chen.</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#step2" target="_blank" style> Georgia Skills towards employment and productivity (STEP) survey findings (Urban Areas)</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with A. Valerio, K. Herrera-Sosa, D. Chen.</div>  
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#step3" target="https://www.worldbank.org/content/dam/Worldbank/Feature%20Story/Education/STEP%20Snapshot%202014_Revised_June%2020%202014%20(final).pdf" style> STEP Skills Measurement Program - Snapshot 2014</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with A. Valerio, M. Sanchez-Puerta, G. Pierre, T. Rajadel.</div>  
+              </h3>             
+            </div>
+            <p> </p>
+            </div>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+            <h3 class="mb-1" style> ACADEMIC ESSAYS </h3> 
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#ppol1" target="_blank" style> Proceso de toma de decisiones para el fortalecimiento de gobiernos locales: el caso del Área Metropolitana del Valle de
+Aburra (AMVA) 2004-2008</a>
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#ppol2" target="_blank" style> Gobernabilidad democrática: reforma estructural en América Latina</a>
+              </h3>             
+            </div>
+            <div class="w3-margin-top-2" style="font-weight:400;">
+              <h3 class="mb-0">
+                <a href="#ppol3" target="_blank" style> Descentralización: implicaciones en la gobernabilidad democrática y los partidos políticos colombianos</a>
+                <div class="subheading mb-0" style="font-weight:300;"> with J. Solórzano-Pescador.</div>  
+              </h3>             
+            </div>                                    
             </div>
           </div>
 
         <!--FOOTER-->
         <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
         <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
-          <p>© 2021 - John Doe</p>
-           <p class="w3-small">This website was made with W3schools Spaces. Make your own free website today!</p>
-          <a class="w3-button w3-round-xxlarge w3-small w3-light-grey" href="https://www.w3schools.com/spaces" target="_blank">Start now</a> 
-        <!-- End footer -->
+          <p>© 2022 - Sebastian Monroy-Taborda</p>
+          <!-- End footer -->
         </footer>
 
         <!--END OF CV SECTION-->
