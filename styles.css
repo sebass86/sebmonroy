@@ -1,7 +1,7 @@
 /*General*/
 body * {
     font-family: "Montserrat", sans-serif;
-    color: #474444
+    color: #474444;
   }
   
   html,
@@ -16,6 +16,7 @@ body * {
   h3,
   h4 {
     font-weight: bold;
+    text-transform:uppercase;
   }
   
   ul li {
